@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: full-demo
-          image: quarkus/full-demo-jvm
+          image: adrianflorin1/full-demo:v4
           ports:
             - containerPort: 8080
           env:
@@ -34,7 +34,7 @@ spec:
               valueFrom:
                 configMapKeyRef:
                   name: postgres-config
-                  key: postgres-service
+                  key: postgres-url
 ---
 apiVersion: v1
 kind: Service
