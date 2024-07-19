@@ -152,16 +152,6 @@
                         <java.util.logging.manager>org.jboss.logmanager.LogManager</java.util.logging.manager>
                         <maven.home>${maven.home}</maven.home>
                     </systemPropertyVariables>
-                    <containerImage>
-                        <build>true</build>
-                        <push>true</push>
-                        <registry>docker.io</registry>
-                        <group>adrianiacob1</group>
-                        <name>${project.artifactId}</name>
-                        <tag>1</tag>
-                        <username>adrianiacob1</username>
-                        <password>ParolaNoua1!</password>
-                    </containerImage>
                 </configuration>
             </plugin>
         </plugins>
