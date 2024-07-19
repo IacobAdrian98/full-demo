@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: full-demo
-          image: adrianflorin1/full-demo:v4
+          image: adrianflorin1/full-demo:v5
           ports:
             - containerPort: 8080
           env:
